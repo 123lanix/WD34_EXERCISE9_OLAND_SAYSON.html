@@ -1,0 +1,171 @@
+style.css
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'popons', sans-serif;
+    background-color: rgb(27, 27, 27);
+    overflow-x: hidden;
+    background-image: url(cover_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 90vh;
+    position: relative;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+.navbar-box{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+.heading-tertiary{
+    font-size: 3.5rem;
+    color: #cef7f8;
+}
+.navbar-list{
+    list-style: none;
+    font-size: 2rem;
+}
+.navbar-item{
+    display: inline-block;
+}
+.navbar-link:visited,
+.navbar-link:link{
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+    transition: all .2s ease;
+}
+.navbar-link:hover{
+    background-color: #06f74e;
+    color: white;
+    border-radius: 5%;
+}
+
+.header-container{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.header-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.heading-primary{
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}  
+hr{
+    width: 270px;
+}
+p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#restaurant{
+    color: #da6b1d;
+    font-weight: 800;
+    font-size: 8rem;
+}
+.lead{
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.book-now:visited,
+.book-now:link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    border: 1px solid white;
+
+    border-radius: 100px;
+    transition: all .3s ease;
+    box-shadow: 0 1rem 1rem rgba(240, 107, 55, .1);
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, .6);
+}
+.book-now:hover{
+    background-color: #0919fc94;
+    border: 1px solid white;
+    box-shadow: 0 0 2rem rgba(240, 107, 55, .8);
+}
+/*MENU*/
+
+.menu{
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+.menu h1{
+    color: brown;
+    font-weight: normal;
+    font-size: 25px;
+}
+.menu p{
+    color: rgb(43, 8, 8);
+}
+.menu-item-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-item{
+    width: 50%;
+    text-align: left;
+}
+.menu-item-desc{
+    padding: 20px;
+}
+footer{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(22, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
